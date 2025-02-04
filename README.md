@@ -58,3 +58,6 @@ uvicorn main:app --reload
 To run the tests, make sure you have pytest installed:
 ```bash
 pip install pytest
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

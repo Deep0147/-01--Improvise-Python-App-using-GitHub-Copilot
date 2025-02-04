@@ -17,8 +17,8 @@ class UserData(BaseModel):
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the API! Customized for [Your Name]"}
-
 # FastAPI endpoint to accept POST request with a JSON body containing a single field "text"
+# It should return a checksum of the text
 @app.post("/generate/")
 def generate(data: TextData):
     # Generate a checksum of the text

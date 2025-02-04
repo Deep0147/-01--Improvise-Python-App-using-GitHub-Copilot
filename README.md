@@ -53,3 +53,8 @@ uvicorn main:app --reload
   "name": "John Doe",
   "age": 30
 }
+## Testing
+
+To run the tests, make sure you have pytest installed:
+```bash
+pip install pytest

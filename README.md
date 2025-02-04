@@ -30,3 +30,19 @@ pip install fastapi uvicorn
 To run the application using the Uvicorn webserver, use the following command:
 ```bash
 uvicorn main:app --reload
+## Endpoints
+
+### Root Endpoint
+- **URL**: `/`
+- **Method**: `GET`
+- **Description**: Returns a welcome message customized for Deepika.
+
+### Generate Checksum
+- **URL**: `/generate/`
+- **Method**: `POST`
+- **Description**: Generates an MD5 checksum for the provided text.
+- **Request Body**:
+  ```json
+  {
+    "text": "your text here"
+  }

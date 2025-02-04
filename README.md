@@ -15,3 +15,9 @@ This is a simple FastAPI application with endpoints to generate an MD5 checksum 
    ```bash
    git clone https://github.com/Deep0147/-01--Improvise-Python-App-using-GitHub-Copilot.git
    cd -01--Improvise-Python-App-using-GitHub-Copilot
+## Create and Activate a Virtual Environment
+
+1. **Create a virtual environment**:
+   ```bash
+   python -m venv venv
+   

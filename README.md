@@ -46,3 +46,6 @@ uvicorn main:app --reload
   {
     "text": "your text here"
   }
+{
+  "checksum": "generated checksum"
+}

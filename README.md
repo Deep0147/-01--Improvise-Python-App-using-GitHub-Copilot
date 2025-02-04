@@ -25,3 +25,8 @@ This is a simple FastAPI application with endpoints to generate an MD5 checksum 
 Run the following command to install FastAPI and Uvicorn:
 ```bash
 pip install fastapi uvicorn
+## Running the Application
+
+To run the application using the Uvicorn webserver, use the following command:
+```bash
+uvicorn main:app --reload

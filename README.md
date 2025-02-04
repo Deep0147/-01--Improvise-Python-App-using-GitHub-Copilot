@@ -20,4 +20,8 @@ This is a simple FastAPI application with endpoints to generate an MD5 checksum 
 1. **Create a virtual environment**:
    ```bash
    python -m venv venv
-   
+   ## Install the Required Dependencies
+
+Run the following command to install FastAPI and Uvicorn:
+```bash
+pip install fastapi uvicorn

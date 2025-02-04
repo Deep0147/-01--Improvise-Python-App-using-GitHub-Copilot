@@ -49,3 +49,7 @@ uvicorn main:app --reload
 {
   "checksum": "generated checksum"
 }
+{
+  "name": "John Doe",
+  "age": 30
+}
